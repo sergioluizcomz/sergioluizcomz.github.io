@@ -1,0 +1,33 @@
+/*!
+ * Font Awesome Pro 6.0.0-alpha2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+ @font-face {
+	font-family: 'Font Awesome 6 Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url("assets/fonts/font-awesome/fa-brands-400.woff2") format("woff2");
+}
+
+.fab,
+.fa-brands  {
+	font-family: 'Font Awesome 6 Pro';
+	font-weight: 400;
+}
+
+.fa-whatsapp::before {
+	content: "\f232";
+}
+
+.fa-whatsapp-square::before {
+	content: "\f40c";
+}
+
+.fa-linkedin::before {
+    content: "\f08c";
+}
+
+.fa-github::before {
+    content: "\f09b";
+}

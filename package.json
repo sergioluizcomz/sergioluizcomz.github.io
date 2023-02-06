@@ -1,0 +1,16 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Portfólio",
+	"main": "main.js",
+	"scripts": {
+		"css": "node-sass --include-path scss assets/scss/imports.scss main.css",
+		"watch": "nodemon -e scss -x 'npm run css'"
+	},
+	"author": "Sérgio Luiz",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^8.0.0",
+		"nodemon": "^2.0.20"
+	}
+}
