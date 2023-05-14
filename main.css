@@ -20630,16 +20630,33 @@ body {
               opacity: 1;
               transition: opacity 0.5s ease;
               max-width: 450px; }
-            body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div:nth-child(1) {
-              margin-bottom: 40px; }
-            body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div:nth-child(2) a {
+            body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item {
               display: flex;
-              max-width: 200px;
-              float: right; }
-              body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div:nth-child(2) a:hover {
-                opacity: 0.9; }
-              body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div:nth-child(2) a img {
-                width: 100%; }
+              flex-direction: column; }
+              body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item:not(:last-child) {
+                margin-bottom: 20px; }
+              body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item > div:nth-child(1) {
+                margin-bottom: 20px; }
+              body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item > div:nth-child(2) a {
+                display: flex;
+                align-items: center;
+                max-width: 200px;
+                float: right;
+                text-decoration: unset; }
+                body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item > div:nth-child(2) a:hover {
+                  opacity: 0.9; }
+                body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item > div:nth-child(2) a img {
+                  width: 100%; }
+                body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item > div:nth-child(2) a span {
+                  margin-left: 8px;
+                  font-size: 24px;
+                  font-weight: 600;
+                  letter-spacing: 1px;
+                  color: #fff; }
+              body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item.work-dlack > div:nth-child(2) a {
+                max-width: unset; }
+                body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-works > div.work-item.work-dlack > div:nth-child(2) a img {
+                  max-width: 55px; }
             body .page-wrapper .page-content .page-grid .right-page .right-page-content .section-contact {
               display: flex;
               flex-direction: column;
